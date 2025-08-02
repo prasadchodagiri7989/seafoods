@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import Preloader from "./components/preloader";
+import Preloader from "./components/PreLoader";
 
 import "./App.css";
 

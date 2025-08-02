@@ -16,7 +16,7 @@ const Preloader: React.FC<PreloaderProps> = ({ onComplete }) => {
   return (
     <div className={`preloader ${exit ? "exit" : ""}`}>
       <SplitText
-        text="Sait N Company"
+        text="Cificap Company"
         className="preloader-text"
         delay={80}
         duration={0.6}
