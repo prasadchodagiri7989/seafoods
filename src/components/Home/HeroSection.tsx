@@ -33,11 +33,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ animateHero }) => {
       </div>
 
       {/* Fade-in Content */}
-      <div
-        className={`relative z-20 text-center text-white px-4 transition-opacity duration-1000 delay-2200 ${
-          animateHero ? "opacity-100" : "opacity-0"
-        }`}
-      >
+<div
+  className={`relative z-20 text-center text-white px-4 hero-fade-in ${
+    animateHero ? "show" : ""
+  }`}
+>
+
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Trusted Seafood Exporter<br />
           <span className="text-secondary">from India</span>

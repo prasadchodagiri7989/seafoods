@@ -98,4 +98,15 @@ body.loading {
   border-top-right-radius: 0px;
 }
 
+.hero-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+  transition-delay: 1.0s; /* Add delay before fade starts */
+}
+
+.hero-fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
