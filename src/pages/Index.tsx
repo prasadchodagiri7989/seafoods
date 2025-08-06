@@ -11,7 +11,6 @@ import Testimonials from "@/components/Home/Testimonials";
 const Index = ({ heroReady, showHeader }) => {
   return (
     <div className="min-h-screen bg-background">
-      <Header show={showHeader} /> {/* ✅ */}
       <main>
         <HeroSection animateHero={heroReady} />
         <WhoWeAre />
